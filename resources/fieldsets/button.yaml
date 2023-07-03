@@ -1,0 +1,51 @@
+title: Button
+fields:
+  -
+    handle: link
+    field:
+      display: 'Link Variant 1'
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      localizable: true
+      container: assets
+      width: 50
+      hide_display: false
+      if:
+        link_type: 'equals link'
+  -
+    handle: link_variant_2
+    field:
+      type: link
+      display: 'Link Variant 2'
+      icon: link
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: link_variant_3
+    field:
+      type: link
+      display: 'Link Variant 3'
+      icon: link
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: link_variant_4
+    field:
+      type: link
+      display: 'Link Variant 4'
+      icon: link
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

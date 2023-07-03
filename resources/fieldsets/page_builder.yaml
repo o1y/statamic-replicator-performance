@@ -3,26 +3,29 @@ fields:
   -
     handle: page_builder
     field:
-      collapse: false
+      collapse: true
       previews: true
-      fullscreen: true
       sets:
-        new_set_group:
-          display: 'New Set Group'
+        main:
+          display: Main
           instructions: null
           icon: null
           sets:
             article:
               display: Article
-              instructions: null
-              icon: null
+              instructions: 'Long form content, can be expanded with media like figures, video, quotes or videos.'
+              icon: text-formatting-initial-letter
               fields:
                 -
-                  import: article_level_0
-      type: replicator
+                  import: article
       display: 'Page Builder'
+      type: replicator
       icon: replicator
       listable: hidden
       instructions_position: above
       visibility: visible
+      always_save: false
+      instructions: 'Compose your page by using content sets.'
+      localizable: true
       hide_display: false
+      fullscreen: true

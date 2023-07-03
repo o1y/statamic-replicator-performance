@@ -1,0 +1,116 @@
+title: 'Article 0'
+fields:
+  -
+    handle: article
+    field:
+      collapse: false
+      always_show_set_button: false
+      previews: true
+      sets:
+        main:
+          display: Main
+          instructions: null
+          icon: null
+          sets:
+            buttons:
+              display: Buttons
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: button_group
+            accordion:
+              display: Accordion
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+            accordion_2:
+              display: 'Accordion 2'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_2
+            accordion_3:
+              display: 'Accordion 3'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_3
+            accordion_4:
+              display: 'Accordion 2'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_4
+            accordion_5:
+              display: 'Accordion 5'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_5
+            accordion_6:
+              display: 'Accordion 6'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_6
+            accordion_7:
+              display: 'Accordion 7'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_7
+            accordion_8:
+              display: 'Accordion 7'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+                  prefix: accordion_8
+      buttons:
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+        - bold
+        - subscript
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: true
+      remove_empty_nodes: false
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      localizable: true
+      container: assets
+      smart_typography: false
+      inline: false
+      hide_display: false

@@ -1,0 +1,30 @@
+title: 'Accordion 0'
+fields:
+  -
+    handle: accordion_group
+    field:
+      collapse: false
+      previews: true
+      sets:
+        main:
+          display: Main
+          instructions: null
+          icon: null
+          sets:
+            accordion_item:
+              display: Item
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: nested_article
+      display: Items
+      type: replicator
+      icon: replicator
+      localizable: true
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      fullscreen: true
+      hide_display: false
